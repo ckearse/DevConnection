@@ -11,12 +11,22 @@
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
     "config": "^3.3.3",
+    "eslint-config-airbnb": "^18.2.1",
     "express": "^4.17.1",
     "express-validator": "^6.9.2",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.12",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
   }
 }

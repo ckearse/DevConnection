@@ -34,8 +34,6 @@ router.post(
 		// Pass req to express-valdator for evaluation against check requirements
 		const errors = validationResult(req);
 
-		console.log('Errors', errors);
-
 		if (!errors.isEmpty()) {
 			return res.status(400).json({ errors: errors.array() });
 		}
@@ -84,7 +82,6 @@ router.post(
 				}
 			);
 		} catch (error) {
-			console.log('Error', error);
 			return res.status(500).send('Server Error');
 		}
 	}
